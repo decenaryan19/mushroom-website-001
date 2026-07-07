@@ -1,0 +1,14 @@
+{
+  "name": "mushroom-website",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "prepare": "python scripts/prepare_deploy.py",
+    "deploy": "python scripts/prepare_deploy.py && wrangler pages deploy dist --project-name=mushroom-website",
+    "deploy:pages": "python scripts/prepare_deploy.py && wrangler pages deploy dist --project-name=mushroom-website",
+    "preview": "python scripts/prepare_deploy.py && wrangler pages dev dist"
+  },
+  "devDependencies": {
+    "wrangler": "^4.106.0"
+  }
+}

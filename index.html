@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Suwannee Bell Farms LLC</title>
+  <meta name="description" content="Premium organic oak log forest grown shiitake mushrooms, sustainably cultivated in Bell, Florida.">
+  <meta name="theme-color" content="#1f4d0a">
+  <style>
+    *,*::before,*::after{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:#fffdee;color:#2b2b2b}img,picture,svg{display:block;max-width:100%;height:auto}a{color:inherit;text-decoration:none}.container{width:min(100% - 1.875rem,1250px);margin-inline:auto}.site-header{position:sticky;top:0;z-index:50;background:#fffdee;box-shadow:0 1px 2px rgba(0,0,0,.06)}.site-header__inner{display:flex;align-items:center;justify-content:space-between;min-height:70px;gap:1rem}.site-logo{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:70px;height:70px}.site-logo img{width:100%;height:100%;object-fit:contain}.site-nav{display:none;align-items:center;gap:1.35rem;font-size:.72rem;font-weight:700;text-transform:uppercase}.site-nav a{color:#000;line-height:25px;padding:.35rem 0}.site-nav a.is-active{background:#1f4d0a;color:#fff;padding:.35rem .8rem}.site-header__actions{display:flex;align-items:center;gap:.5rem}.icon-btn{display:inline-flex;align-items:center;justify-content:center;min-width:48px;min-height:48px;border:0;background:transparent;color:#374151}.icon-btn svg{width:20px;height:20px}.mobile-nav{display:none}.hero{position:relative;overflow:hidden;background:#111}.hero__slides{position:relative}.hero-slide{display:none}.hero-slide.is-active{display:block}.hero-slide img{width:100%;height:60vw;max-height:600px;object-fit:cover;object-position:center}.hero__overlay{position:absolute;inset:0;display:flex;align-items:flex-end;justify-content:center;padding-bottom:3rem;background:transparent}.hero__dots{position:absolute;left:50%;bottom:1rem;transform:translateX(-50%);display:flex;gap:.75rem}.hero-dot{position:relative;width:2.75rem;height:2.75rem;border:0;border-radius:999px;padding:0;background:transparent;cursor:pointer}.hero-dot::before{content:"";position:absolute;inset:1rem;border-radius:999px;border:1px solid #fff;background:transparent}.hero-dot.is-active::before{background:#fff}.banner{display:flex;align-items:center;justify-content:center;min-height:80px;padding:.75rem 1rem;background:#bc5615}.banner h1,.banner h2{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:clamp(1.25rem,2.5vw,2rem);font-weight:700;line-height:1.2;text-transform:uppercase;color:#fff}.banner--product-intro{min-height:70px}.banner--product-intro h2{font-size:clamp(1.5rem,2.7vw,2rem);font-weight:500;letter-spacing:0}.section{padding:20px 0}.product-section{background-color:rgba(255,253,238,.762)}.grid-2{display:grid;gap:30px}#product .section-title{font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:1.125rem;font-weight:500;color:#285815;line-height:1.3;margin:0 0 .5rem}#product .prose{display:block;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:1rem;line-height:1.6;color:#2b2b2b}#product .prose p{margin:0 0 .45rem}.btn{display:inline-flex;align-items:center;justify-content:center;min-height:2.125rem;padding:.45rem 1.25rem;font-family:system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;font-size:.6875rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;border:0;cursor:pointer}.btn--forest{color:#fff;background:#336f1b}.btn--terracotta{color:#fff;background:#bc5615}.btn--outline-light{color:#fff;background:transparent;border:2px solid #fff}@media (min-width:768px){.site-nav{display:flex}#mobile-menu-btn{display:none}}@media (min-width:850px){.site-header__inner{min-height:90px}.site-logo{width:90px;height:90px}.hero-slide img{height:600px}}
+  </style>
+  <link rel="preload" href="images/hero-1-small.webp" as="image" type="image/webp" media="(max-width: 767px)" fetchpriority="high">
+  <link rel="preload" href="images/hero-1.webp" as="image" type="image/webp" media="(min-width: 768px)" fetchpriority="high">
+  <link rel="stylesheet" href="css/styles.min.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container site-header__inner">
+      <a href="index.html" class="site-logo" aria-label="Suwannee Bell Farms — Home">
+        <img src="images/logo-90.webp" srcset="images/logo-44.webp 44w, images/logo-90.webp 90w" sizes="(min-width: 850px) 90px, 70px" alt="Suwannee Bell Farms logo" width="44" height="44" decoding="async">
+      </a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" class="is-active">HOME</a>
+        <a href="pages/product.html">PRODUCT</a>
+        <a href="pages/articles.html">ARTICLES</a>
+        <a href="pages/about.html">ABOUT</a>
+        <a href="pages/sample.html">REQUEST FREE SAMPLE</a>
+        <a href="pages/contact.html">CONTACT</a>
+      </nav>
+      <div class="site-header__actions">
+        <button type="button" class="icon-btn" aria-label="Search">
+          <svg aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/></svg>
+        </button>
+        <button type="button" id="mobile-menu-btn" class="icon-btn" aria-label="Open menu" aria-expanded="false">
+          <svg aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        </button>
+      </div>
+    </div>
+    <nav id="mobile-menu" class="mobile-nav" aria-label="Mobile navigation">
+      <div class="mobile-nav__inner">
+        <a href="index.html" class="is-active">HOME</a>
+        <a href="pages/product.html">PRODUCT</a>
+        <a href="pages/articles.html">ARTICLES</a>
+        <a href="pages/about.html">ABOUT</a>
+        <a href="pages/sample.html">REQUEST FREE SAMPLE</a>
+        <a href="pages/contact.html">CONTACT</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" aria-label="Featured mushrooms">
+      <div id="hero-carousel" class="hero__slides">
+        <div class="hero-slide is-active">
+          <picture>
+            <source media="(min-width: 768px)" srcset="images/hero-1.webp" type="image/webp">
+            <img src="images/hero-1-small.webp" alt="Fresh gourmet mushrooms on a light surface" width="520" height="293" fetchpriority="high" decoding="async" sizes="100vw">
+          </picture>
+        </div>
+        <div class="hero-slide">
+          <picture>
+            <source media="(min-width: 768px)" srcset="images/hero-2.webp" type="image/webp">
+            <img src="images/hero-2-small.webp" alt="Freshly harvested shiitake mushrooms" width="520" height="293" loading="lazy" decoding="async" sizes="100vw">
+          </picture>
+        </div>
+        <div class="hero__overlay">
+          <a href="pages/product.html" class="btn btn--outline-light">Buy Now</a>
+        </div>
+        <div class="hero__dots">
+          <button type="button" class="hero-dot is-active" data-slide="0" aria-label="Slide 1"></button>
+          <button type="button" class="hero-dot" data-slide="1" aria-label="Slide 2"></button>
+        </div>
+      </div>
+    </section>
+
+    <div class="banner banner--product-intro">
+      <h2>Organic Oak Log Forest Grown Shiitake Mushrooms</h2>
+    </div>
+
+    <section id="product" class="section product-section">
+      <div class="container">
+        <div class="grid-2 grid-2--reverse">
+          <div class="grid-2__text">
+            <h2 class="section-title">The Ultimate Gourmet Mushroom</h2>
+            <div class="prose">
+              <p>Looking for a delicious, nutritious, and sustainable mushroom? Look no further than organic oak log forest grown shiitake mushrooms! These mushrooms are grown on oak logs in the forest, where they have access to all the nutrients they need to thrive. The result is a mushroom that is packed with flavor, umami, and essential nutrients.</p>
+              <p>Shiitake mushrooms are a good source of protein, fiber, and vitamins B and C. They are also low in calories and fat. Shiitake mushrooms have been shown to have a number of health benefits, including boosting the immune system, reducing inflammation, and improving heart health.</p>
+              <p>Organic oak log forest grown shiitake mushrooms are also a sustainable choice. Unlike many other mushrooms, shiitake mushrooms are not grown in artificial environments. Instead, they are grown on oak logs, which are a renewable resource. This means that you can enjoy these delicious and nutritious mushrooms without harming the environment.</p>
+              <p>Order your organic oak log forest grown shiitake mushrooms today and experience the difference! These mushrooms are perfect for a variety of dishes, from stir-fries and soups to stews and pizzas. With their rich flavor and umami, shiitake mushrooms will add a new dimension to your cooking.</p>
+              <p>We are so confident that you will love our organic oak log forest grown shiitake mushrooms that we offer a 100% satisfaction guarantee. If you are not happy with your purchase, simply return it for a full refund.</p>
+              <p>Order now and taste the difference!</p>
+            </div>
+            <a href="pages/product.html" class="btn btn--forest mt-8">Buy Now</a>
+          </div>
+          <div class="grid-2__media">
+            <div class="product-image-wrap">
+              <img src="images/product-384.webp" srcset="images/product-384.webp 384w, images/product.webp 600w" sizes="(min-width: 1024px) 384px, 90vw" alt="Fresh organic shiitake mushrooms on a ceramic plate" width="384" height="512" loading="lazy" decoding="async">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="recipes" class="section section--white">
+      <div class="container">
+        <div class="section-head">
+          <div class="logo-mark">
+            <img src="images/logo-36.webp" alt="" width="36" height="36" aria-hidden="true" loading="lazy" decoding="async">
+          </div>
+          <h2 class="section-title">Recipe</h2>
+        </div>
+        <div class="card-grid card-grid--3">
+          <article class="media-card">
+            <a href="pages/recipe-grill.html" style="display: block; color: inherit; text-decoration: none;">
+              <div class="media-card__image">
+                <img src="images/recipe-grill-400.webp" srcset="images/recipe-grill-400.webp 400w, images/recipe-grill.webp 533w" sizes="(min-width: 1024px) 368px, 400px" alt="Grilled shiitake mushrooms on a wooden board" width="400" height="300" loading="lazy" decoding="async">
+              </div>
+              <div class="media-card__body">
+                <h3 class="media-card__title">Grill Shiitake Mushrooms</h3>
+              </div>
+            </a>
+          </article>
+          <article class="media-card">
+            <a href="pages/recipe-roast.html" style="display: block; color: inherit; text-decoration: none;">
+              <div class="media-card__image">
+                <img src="images/recipe-roast-400.webp" srcset="images/recipe-roast-400.webp 400w, images/recipe-roast.webp 533w" sizes="(min-width: 1024px) 368px, 400px" alt="Roasted shiitake mushrooms in a bowl" width="400" height="300" loading="lazy" decoding="async">
+              </div>
+              <div class="media-card__body">
+                <h3 class="media-card__title">Roast Shiitake Mushrooms</h3>
+              </div>
+            </a>
+          </article>
+          <article class="media-card">
+            <a href="pages/recipe-stir-fry.html" style="display: block; color: inherit; text-decoration: none;">
+              <div class="media-card__image">
+                <img src="images/recipe-stir-fry-400.webp" srcset="images/recipe-stir-fry-400.webp 400w, images/recipe-stir-fry.webp 486w" sizes="(min-width: 1024px) 368px, 400px" alt="Stir fry with shiitake mushrooms and vegetables" width="400" height="209" loading="lazy" decoding="async">
+              </div>
+              <div class="media-card__body">
+                <h3 class="media-card__title">Stir-Fry Shiitake Mushrooms</h3>
+              </div>
+            </a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery-section" aria-label="Farm gallery">
+      <div class="gallery-dots" id="gallery-dots" role="tablist" aria-label="Gallery pages">
+        <button type="button" class="gallery-dot is-active" data-page="0" role="tab" aria-selected="true" aria-label="Page 1"></button>
+        <button type="button" class="gallery-dot" data-page="1" role="tab" aria-selected="false" aria-label="Page 2"></button>
+      </div>
+      <div class="gallery-stage">
+        <button type="button" class="gallery__btn gallery__btn--prev" id="gallery-prev" aria-label="Previous page" disabled>
+          <svg aria-hidden="true" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 19l-7-7 7-7"/></svg>
+        </button>
+        <div id="gallery-pages">
+          <div class="gallery-page is-active" role="tabpanel">
+            <img src="images/gallery-1-335.webp" srcset="images/gallery-1-335.webp 335w, images/gallery-1.webp 405w" sizes="25vw" alt="Shiitake mushroom growing on a mossy oak log" width="335" height="447" loading="lazy" decoding="async">
+            <img src="images/gallery-2-335.webp" srcset="images/gallery-2-335.webp 335w, images/gallery-2.webp 405w" sizes="25vw" alt="Shiitake mushroom on a vertical oak log" width="335" height="447" loading="lazy" decoding="async">
+            <img src="images/gallery-3-335.webp" srcset="images/gallery-3-335.webp 335w, images/gallery-3.webp 405w" sizes="25vw" alt="Oak log rows in the forest at sunset" width="335" height="447" loading="lazy" decoding="async">
+            <img src="images/gallery-4-335.webp" srcset="images/gallery-4-335.webp 335w, images/gallery-4.webp 405w" sizes="25vw" alt="Farmer with freshly harvested shiitake mushrooms" width="335" height="447" loading="lazy" decoding="async">
+          </div>
+          <div class="gallery-page" role="tabpanel" hidden>
+            <img src="images/gallery-5-335.webp" srcset="images/gallery-5-335.webp 335w, images/gallery-5.webp 405w" sizes="25vw" alt="Close-up of shiitake on an oak log" width="335" height="447" loading="lazy" decoding="async">
+            <img src="images/gallery-6-335.webp" srcset="images/gallery-6-335.webp 335w, images/gallery-6.webp 405w" sizes="25vw" alt="Mushroom cluster on a forest log" width="335" height="447" loading="lazy" decoding="async">
+            <img src="images/gallery-7-335.webp" srcset="images/gallery-7-335.webp 335w, images/gallery-7.webp 405w" sizes="25vw" alt="Forest mushroom cultivation logs" width="335" height="447" loading="lazy" decoding="async">
+            <img src="images/gallery-8-335.webp" srcset="images/gallery-8-335.webp 335w, images/gallery-8.webp 405w" sizes="25vw" alt="Harvesting mushrooms in the forest" width="335" height="447" loading="lazy" decoding="async">
+          </div>
+        </div>
+        <button type="button" class="gallery__btn gallery__btn--next" id="gallery-next" aria-label="Next page">
+          <svg aria-hidden="true" width="20" height="20" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"/></svg>
+        </button>
+      </div>
+    </section>
+
+    <div id="articles" class="banner">
+      <h2>Articles</h2>
+    </div>
+
+    <section class="section product-section">
+      <div class="container">
+        <div class="card-grid card-grid--3">
+          <article class="media-card">
+            <a href="pages/article-meat-alternative.html" style="display: block; color: inherit; text-decoration: none;">
+              <div class="media-card__image">
+                <img src="images/article-1-400.webp" srcset="images/article-1-400.webp 400w, images/article-1.webp 523w" sizes="(min-width: 1024px) 368px, 400px" alt="Grilled mushroom skewers as a meat alternative" width="400" height="225" loading="lazy" decoding="async">
+              </div>
+              <div class="media-card__body">
+                <h3 class="media-card__title">Shiitake Mushrooms as a Meat Alternative</h3>
+              </div>
+            </a>
+          </article>
+          <article class="media-card">
+            <a href="pages/article-history.html" style="display: block; color: inherit; text-decoration: none;">
+              <div class="media-card__image">
+                <img src="images/article-2-400.webp" srcset="images/article-2-400.webp 400w, images/article-2.webp 523w" sizes="(min-width: 1024px) 368px, 400px" alt="Hands holding freshly harvested shiitake mushrooms" width="400" height="267" loading="lazy" decoding="async">
+              </div>
+              <div class="media-card__body">
+                <h3 class="media-card__title">The History of Shiitake Mushrooms</h3>
+              </div>
+            </a>
+          </article>
+          <article class="media-card">
+            <a href="pages/article-vegan-choice.html" style="display: block; color: inherit; text-decoration: none;">
+              <div class="media-card__image">
+                <img src="images/article-3-400.webp" srcset="images/article-3-400.webp 400w, images/article-3.webp 480w" sizes="(min-width: 1024px) 368px, 400px" alt="Nutritious vegan bowl with shiitake mushrooms" width="400" height="300" loading="lazy" decoding="async">
+              </div>
+              <div class="media-card__body">
+                <h3 class="media-card__title">A Delicious and Nutritious Vegan Choice</h3>
+              </div>
+            </a>
+          </article>
+        </div>
+        <div class="text-center mt-10">
+          <a href="pages/articles.html" class="btn btn--terracotta">View More</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact" class="site-footer">
+    <div class="container site-footer__main">
+      <div class="footer-grid">
+        <div>
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="index.html" class="footer-link">Home</a></li>
+            <li><a href="pages/product.html" class="footer-link">Product</a></li>
+            <li><a href="pages/about.html" class="footer-link">About</a></li>
+            <li><a href="pages/contact.html" class="footer-link">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Useful Info</h4>
+          <ul class="footer-links">
+            <li><a href="pages/sample.html" class="footer-link">FAQ</a></li>
+            <li><a href="pages/articles.html" class="footer-link">Articles</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="footer-heading">Contact Us</h4>
+          <ul class="footer-links">
+            <li>Phone: <a href="tel:+13525594295" class="footer-link">(352) 559-4295</a></li>
+            <li>Email: <a href="mailto:sales@suwanneebellfarms.com" class="footer-link">sales@suwanneebellfarms.com</a></li>
+            <li>Web: <a href="https://suwanneebellfarms.com" class="footer-link">suwanneebellfarms.com</a></li>
+            <li>1509 SW 22 Ct. Bell, Florida 32619</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="site-footer__bar">
+      <div class="container footer-bar-inner">
+        <p class="footer-copy">Copyright 2026 &copy; Suwannee Bell Farms LLC</p>
+        <div class="payment-badges" aria-label="Accepted payment methods">
+          <span class="payment-badge">VISA</span>
+          <span class="payment-badge">MC</span>
+          <span class="payment-badge">AMEX</span>
+          <span class="payment-badge">PayPal</span>
+        </div>
+        <button type="button" id="back-to-top" class="back-to-top" aria-label="Back to top">
+          <svg aria-hidden="true" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/script.min.js" defer></script>
+</body>
+</html>

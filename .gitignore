@@ -1,0 +1,18 @@
+# Unoptimized / redundant assets (keep WebP only in repo)
+images/raw/
+**/*.png
+
+# Dev
+.vscode/
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Reports
+lighthouse*.json
+
+# Cloudflare deploy output (generated locally)
+dist/
