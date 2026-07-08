@@ -3,7 +3,11 @@
 from __future__ import annotations
 
 import shutil
+import sys
 from pathlib import Path
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from generate_sitemap import write_seo_files
 
 ROOT = Path(__file__).resolve().parents[1]
 DIST = ROOT / "dist"
@@ -43,6 +47,9 @@ def main() -> None:
 
     for name in INCLUDE_DIRS:
         copy_tree(name)
+
+    seo_count = write_seo_files(DIST)
+    print(f"Generated sitemap.xml ({seo_count} URLs) and robots.txt")
 
     large: list[tuple[int, Path]] = []
     total = 0
